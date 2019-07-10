@@ -1,1 +1,1 @@
-console.log('live js)
+console.log('live js')
