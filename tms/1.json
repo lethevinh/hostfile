@@ -1,0 +1,1688 @@
+{
+    "jobIds": ["5f9b3162-8417-4eed-9232-bebf13c29773"],
+    "results": [
+    {
+        "jobId": "5f9b3162-8417-4eed-9232-bebf13c29773",
+        "result":
+        {
+            "data":
+            {
+                "descriptor":
+                {
+                    "Select": [
+                    {
+                        "Kind": 1,
+                        "Depth": 0,
+                        "Value": "G0",
+                        "GroupKeys": [
+                        {
+                            "Source":
+                            {
+                                "Entity": "Batch1 GA  Jan 14th - Merchant List FDD",
+                                "Property": "Trading name"
+                            },
+                            "Calc": "G0",
+                            "IsSameAsSelect": true
+                        }]
+                    },
+                    {
+                        "Kind": 1,
+                        "Depth": 0,
+                        "Value": "G1",
+                        "GroupKeys": [
+                        {
+                            "Source":
+                            {
+                                "Entity": "Batch1 GA  Jan 14th - Merchant List FDD",
+                                "Property": "Quận"
+                            },
+                            "Calc": "G1",
+                            "IsSameAsSelect": true
+                        }]
+                    },
+                    {
+                        "Kind": 1,
+                        "Depth": 0,
+                        "Value": "G2",
+                        "GroupKeys": [
+                        {
+                            "Source":
+                            {
+                                "Entity": "Batch1 GA  Jan 14th - Merchant List FDD",
+                                "Property": "Address"
+                            },
+                            "Calc": "G2",
+                            "IsSameAsSelect": true
+                        }]
+                    }],
+                    "Expressions":
+                    {
+                        "Primary":
+                        {
+                            "Groupings": [
+                            {
+                                "Keys": [
+                                {
+                                    "Source":
+                                    {
+                                        "Entity": "Batch1 GA  Jan 14th - Merchant List FDD",
+                                        "Property": "Trading name"
+                                    },
+                                    "Select": 0
+                                },
+                                {
+                                    "Source":
+                                    {
+                                        "Entity": "Batch1 GA  Jan 14th - Merchant List FDD",
+                                        "Property": "Quận"
+                                    },
+                                    "Select": 1
+                                },
+                                {
+                                    "Source":
+                                    {
+                                        "Entity": "Batch1 GA  Jan 14th - Merchant List FDD",
+                                        "Property": "Address"
+                                    },
+                                    "Select": 2
+                                }],
+                                "Member": "DM0"
+                            }]
+                        }
+                    },
+                    "Version": 2
+                },
+                "dsr":
+                {
+                    "Version": 2,
+                    "DS": [
+                    {
+                        "N": "DS0",
+                        "PH": [
+                        {
+                            "DM0": [
+                            {
+                                "S": [
+                                {
+                                    "N": "G0",
+                                    "T": 1,
+                                    "DN": "D0"
+                                },
+                                {
+                                    "N": "G1",
+                                    "T": 1,
+                                    "DN": "D1"
+                                },
+                                {
+                                    "N": "G2",
+                                    "T": 1,
+                                    "DN": "D2"
+                                }],
+                                "C": [0, 0, 0]
+                            },
+                            {
+                                "C": [1, 1, 1]
+                            },
+                            {
+                                "C": [2, 2, 2]
+                            },
+                            {
+                                "C": [3, 3],
+                                "R": 2
+                            },
+                            {
+                                "C": [4, 3, 4]
+                            },
+                            {
+                                "C": [5, 4, 5]
+                            },
+                            {
+                                "C": [6, 5, 6]
+                            },
+                            {
+                                "C": [7, 4, 7]
+                            },
+                            {
+                                "C": [8, 6, 8]
+                            },
+                            {
+                                "C": [9, 7, 9]
+                            },
+                            {
+                                "C": [10, 8, 10]
+                            },
+                            {
+                                "C": [11, 9, 11]
+                            },
+                            {
+                                "C": [12, 10, 12]
+                            },
+                            {
+                                "C": [13, 8, 13]
+                            },
+                            {
+                                "C": [14, 10, 14]
+                            },
+                            {
+                                "C": [15, 5, 15]
+                            },
+                            {
+                                "C": [16, 7, 16]
+                            },
+                            {
+                                "C": [17, 11, 17]
+                            },
+                            {
+                                "C": [18, 12, 18]
+                            },
+                            {
+                                "C": [19, 13, 19]
+                            },
+                            {
+                                "C": [20, 7, 20]
+                            },
+                            {
+                                "C": [21, 11, 21]
+                            },
+                            {
+                                "C": [22, 14, 22]
+                            },
+                            {
+                                "C": [23, 15, 23]
+                            },
+                            {
+                                "C": [24, 1, 24]
+                            },
+                            {
+                                "C": [25, 4, 25]
+                            },
+                            {
+                                "C": [26, 10, 26]
+                            },
+                            {
+                                "C": [27, 1, 27]
+                            },
+                            {
+                                "C": [28, 11, 28]
+                            },
+                            {
+                                "C": [29, 16, 29]
+                            },
+                            {
+                                "C": [30, 17, 30]
+                            },
+                            {
+                                "C": [31, 4, 31]
+                            },
+                            {
+                                "C": [32, 9, 32]
+                            },
+                            {
+                                "C": [33, 14, 33]
+                            },
+                            {
+                                "C": [34, 4, 34]
+                            },
+                            {
+                                "C": [35, 5, 35]
+                            },
+                            {
+                                "C": [36, 3, 36]
+                            },
+                            {
+                                "C": [37, 37],
+                                "R": 2
+                            },
+                            {
+                                "C": [38, 11, 38]
+                            },
+                            {
+                                "C": [39, 18, 39]
+                            },
+                            {
+                                "C": [40, 5, 40]
+                            },
+                            {
+                                "C": [41, 10, 41]
+                            },
+                            {
+                                "C": [42, 6, 42]
+                            },
+                            {
+                                "C": [43, 19, 43]
+                            },
+                            {
+                                "C": [44, 5, 44]
+                            },
+                            {
+                                "C": [45, 20, 45]
+                            },
+                            {
+                                "C": [46, 46],
+                                "R": 2
+                            },
+                            {
+                                "C": [47, 21, 47]
+                            },
+                            {
+                                "C": [48, 7, 48]
+                            },
+                            {
+                                "C": [49, 20, 49]
+                            },
+                            {
+                                "C": [50, 5, 50]
+                            },
+                            {
+                                "C": [51, 51],
+                                "R": 2
+                            },
+                            {
+                                "C": [52, 10, 52]
+                            },
+                            {
+                                "C": [53, 20, 53]
+                            },
+                            {
+                                "C": [54, 10, 54]
+                            },
+                            {
+                                "C": [55, 14, 55]
+                            },
+                            {
+                                "C": [56, 9, 56]
+                            },
+                            {
+                                "C": [57, 57],
+                                "R": 2
+                            },
+                            {
+                                "C": [58, 10, 58]
+                            },
+                            {
+                                "C": [59, 16, 59]
+                            },
+                            {
+                                "C": [60, 13, 60]
+                            },
+                            {
+                                "C": [61, 8, 61]
+                            },
+                            {
+                                "C": [62, 3, 62]
+                            },
+                            {
+                                "C": [63, 12, 63]
+                            },
+                            {
+                                "C": [64, 5, 64]
+                            },
+                            {
+                                "C": [65, 6, 65]
+                            },
+                            {
+                                "C": [66, 13, 60]
+                            },
+                            {
+                                "C": [67, 8, 61]
+                            },
+                            {
+                                "C": [68, 3, 62]
+                            },
+                            {
+                                "C": [69, 12, 63]
+                            },
+                            {
+                                "C": [70, 5, 64]
+                            },
+                            {
+                                "C": [71, 6, 65]
+                            },
+                            {
+                                "C": [72, 0, 66]
+                            },
+                            {
+                                "C": [73, 9, 67]
+                            },
+                            {
+                                "C": [74, 6, 68]
+                            },
+                            {
+                                "C": [75, 13, 69]
+                            },
+                            {
+                                "C": [76, 1, 70]
+                            },
+                            {
+                                "C": [77, 22, 71]
+                            },
+                            {
+                                "C": [78, 14, 72]
+                            },
+                            {
+                                "C": [79, 10, 73]
+                            },
+                            {
+                                "C": [80, 1, 74]
+                            },
+                            {
+                                "C": [81, 75],
+                                "R": 2
+                            },
+                            {
+                                "C": [82, 13, 76]
+                            },
+                            {
+                                "C": [83, 23, 77]
+                            },
+                            {
+                                "C": [84, 6, 78]
+                            },
+                            {
+                                "C": [85, 4, 79]
+                            },
+                            {
+                                "C": [86, 8, 80]
+                            },
+                            {
+                                "C": [87, 2, 81]
+                            },
+                            {
+                                "C": [88, 13, 82]
+                            },
+                            {
+                                "C": [89, 9, 83]
+                            },
+                            {
+                                "C": [90, 6, 84]
+                            },
+                            {
+                                "C": [91, 24, 85]
+                            },
+                            {
+                                "C": [92, 1, 86]
+                            },
+                            {
+                                "C": [93, 24, 87]
+                            },
+                            {
+                                "C": [94, 5, 88]
+                            },
+                            {
+                                "C": [95, 3, 89]
+                            },
+                            {
+                                "C": [96, 15, 90]
+                            },
+                            {
+                                "C": [97, 9, 91]
+                            },
+                            {
+                                "C": [98, 14, 92]
+                            },
+                            {
+                                "C": [99, 25, 93]
+                            },
+                            {
+                                "C": ["Yến Coffee - Điện Biên Phủ", 10, 94]
+                            },
+                            {
+                                "C": ["Yellow Cab Pizza Thống Nhất", 18, 95]
+                            },
+                            {
+                                "C": ["Yellow Cab Pizza Phú Mỹ Hưng", 16, 96]
+                            },
+                            {
+                                "C": ["Yellow Cab Pizza Nguyễn Văn Hưởng", 11, 97]
+                            },
+                            {
+                                "C": ["Yellow Cab Pizza Đồng Đen", 0, 98]
+                            },
+                            {
+                                "C": ["Yellow Cab Pizza Bùi Viện", 1, 99]
+                            },
+                            {
+                                "C": ["Yaourt Ghế Gỗ - Tô Hiến Thành", 13, "Big C Miền Đông, 268 Tô Hiến Thành, Phường 15, Quận 10"]
+                            },
+                            {
+                                "C": ["YANS COFFEE", 14, "Số 6 Đường D5, P.25, Bình Thạnh"]
+                            },
+                            {
+                                "C": ["Yang Coffee - Khương Đình", 21, "28 ngõ 460 đường KHương Đình, phường Hạ Đình, Quận Thanh Xuân"]
+                            },
+                            {
+                                "C": ["YamYam Korean Food - Nguyễn Trãi", "328a Nguyễn Trãi, phường Thanh Xuân Trung, quận Thanh Xuân"],
+                                "R": 2
+                            },
+                            {
+                                "C": ["Yakimono - Trần Thái Tông", 5, "A109 D5 Trần Thái Tông, phường Dịch Vọng, quận Cầu Giấy"]
+                            },
+                            {
+                                "C": ["Yakimono - Trần Duy Hưng", 6, "L4-04A Vincom Center Trần Duy Hưng, 119 Trần Duy Hưng, phường Trung Hòa, quận Đống Đa"]
+                            },
+                            {
+                                "C": ["Yakimono - Royal City", 21, "R3 - B2, TTTM Royal City, 72 Nguyễn Trãi, phường Thanh Xuân Nam, quận Thanh Xuân"]
+                            },
+                            {
+                                "C": ["Yakimono - Nguyên Hồng", 4, "36 Nguyên Hồng, phường Thành Công, quận Ba Đình"]
+                            },
+                            {
+                                "C": ["Yakimono - Mỹ Đình", 24, "170 Trần Bình, phường Mỹ Đình,quận Nam Từ Liêm"]
+                            },
+                            {
+                                "C": ["Yakimono - Linh Đàm", 26, "Ô 5, dãy A, lô TT3 dự án Tây Nam Hồ Linh Đàm, phường Đại Kim, quận Hoàng Mai"]
+                            },
+                            {
+                                "C": ["Yakimono - Lê Trọng Tấn", 21, "98 Lê Trọng Tấn, phường Khương Mai, quận Thanh Xuân"]
+                            },
+                            {
+                                "C": ["Xuka Coffee - Trần Hưng Đạo", 3, "17 Trần Hưng Đạo, Phường Phan Chu Trinh, Quận Hoàn Kiếm"]
+                            },
+                            {
+                                "C": ["Xúc Xích Đức NaDu", 9, "447 Huỳnh Văn Bánh, Phường 13, Quận Phú Nhuận"]
+                            },
+                            {
+                                "C": ["Xuân Coffee", 16, "70 Hà Huy Tập, Phường Tân Phong, Quận 7"]
+                            },
+                            {
+                                "C": ["Xuân Anh Bún Dọc Mùng - Lâm Văn Bền", "209 Lâm Văn Bền, P. Bình Thuận, Quận 7"],
+                                "R": 2
+                            },
+                            {
+                                "C": ["Xứ Quảng - Phan Văn Trị", 18, "1353 Phan Văn Trị, Phường 10, Quận Gò Vấp"]
+                            },
+                            {
+                                "C": ["Xu Cha milk tea & coffee 121 đường 61", 27, "121 đường 61, phường Phước Long B, quận 9"]
+                            },
+                            {
+                                "C": ["Xu Cafe's", 6, "Số 40 ngõ 165 Thái Hà, phường Láng Hạ, quận Đống Đa"]
+                            },
+                            {
+                                "C": ["XOMXE- Trần Kim Xuyến", 5, "Số 8 Trần Kim Xuyến, phường Yên Hòa, quận Cầu Giấy"]
+                            },
+                            {
+                                "C": ["Xóm Cà Phê N6E Trung Hòa", "N6E Trung Hòa,Trung Hòa,Cầu Giấy"],
+                                "R": 2
+                            },
+                            {
+                                "C": ["Xóm Cà Phê 111 C8 Tô Hiệu", "111 C8 Tô Hiệu,Nghĩa Tân,Cầu Giấy"],
+                                "R": 2
+                            },
+                            {
+                                "C": ["Xôi Vân 1979 - Nguyễn Ngọc Vũ", "21 Nguyễn Ngọc Vũ, phường Trung Hòa, quận Cầu Giấy"],
+                                "R": 2
+                            },
+                            {
+                                "C": ["Xôi vân 1979", 8, "193A Bà Triệu, Lê Đại Hành , Hai Bà Trưng"]
+                            },
+                            {
+                                "C": ["Xôi Tám", "322 Thái Hà, phường Trung Liệt, quận Đống Đa"],
+                                "R": 2
+                            },
+                            {
+                                "C": ["Xôi Hàng Gà", 1, "47 Trần Khắc Chân, P.Tân Định, Q1"]
+                            },
+                            {
+                                "C": ["Xôi Chị Tùng - Cao Đạt", 7, "1 Cao Đạt , Phường Lê Đại Hành, Quận Hai Bà Trưng"]
+                            },
+                            {
+                                "C": ["Xôi chè Cô Hạnh", 22, "54 Đường số 1, KDC Lý Chiêu Hoàng, Phường An Lạc, Quận Bình Tân"]
+                            },
+                            {
+                                "C": ["Xôi Bự - Mai Hắc Đế", 8, "131 Mai Hắc Đế, Phường Bùi Thị Xuân, Quận Hai Bà Trưng"]
+                            },
+                            {
+                                "C": ["Xôi Bự - Lò Đúc", "61 Lò Đúc, Phường Phạm Đình Hổ, Quận Hai Bà Trưng"],
+                                "R": 2
+                            },
+                            {
+                                "C": ["Xôi bắp gà - Minh Tâm", 14, "325/22S Bạch Đằng, phường 15, quận Bình Thạnh"]
+                            },
+                            {
+                                "C": ["Xôi & Xôi", 8, "43 Tạ Quang Bửu, Phường Bạch Mai, Quận Hai Bà Trưng"]
+                            },
+                            {
+                                "C": ["Xoay Coffee", 9, "15 Hoa Mai, Phường 2, Quận Phú Nhuận"]
+                            },
+                            {
+                                "C": ["Xoài Cóc Bao Tử 157 Đê La Thành", 6, "157 Lê La Thành, phường Nam Đồng quận Đống Đa"]
+                            },
+                            {
+                                "C": ["XÔ BỒ - Lê Văn Sỹ", 10, "243 Lê Văn Sỹ, Phường 13, Quận 3"]
+                            },
+                            {
+                                "C": ["Xíu quán", 1, "5/15 Nguyễn Trung Ngạn,Bến Nghé,Quận 1"]
+                            },
+                            {
+                                "C": ["Xíu - Hàng Than", 4, "2 Hàng Than, Phường Nguyễn Trung Trực, Quận Ba Đình"]
+                            },
+                            {
+                                "C": ["Xinshiqi", 0, "130 - 132 đường Bàu Cát, phường 14, quận Tân Bình"]
+                            },
+                            {
+                                "C": ["Xingcha - Minh Khai", 7, "635 Minh Khai, phường Vĩnh Tuy, quận Hai Bà Trưng"]
+                            },
+                            {
+                                "C": ["XIÊN QUE NGON", 27, "Sảnh D5 - D6 KTX Khu B Đại Học Quốc Gia Tphcm"]
+                            },
+                            {
+                                "C": ["XFood", 5, "16 Trần Quốc Hoàn,Dịch Vọng Hậu,Quận Cầu Giấy"]
+                            },
+                            {
+                                "C": ["Xexe Cafe - Vũ Tông Phan", 11, "59 Vũ Tông Phan, Phường An Phú, Quận 2, Hồ Chí Minh"]
+                            },
+                            {
+                                "C": ["XE CAFE - Lê Văn Sỹ", 10, "443/142F Lê Văn Sỹ, Phường 12, Quận 3"]
+                            },
+                            {
+                                "C": ["Xay Coffee - Nguyễn Sỹ Sách", 0, "147/15 Nguyễn Sỹ Sách, Phường 15, Quận Tân Bình"]
+                            },
+                            {
+                                "C": ["Xanh Lá - Trần Khát Chân", 8, "65 Trần Khát Chân Kéo dài, Phường Thanh Lương, Quận Hai Bà Trưng"]
+                            },
+                            {
+                                "C": ["Xanh Garden", 6, "31 Ô Chợ Dừa, phường Ô Chợ Dừa, quận Đống Đa"]
+                            },
+                            {
+                                "C": ["X Clames - Trần Đại Nghĩa", 8, "329 Trần Đại Nghĩa, Phường Trương Định, Quận Hai Bà Trưng"]
+                            },
+                            {
+                                "C": ["Wrap&Roll - Vivo City", 16, "Tầng 4, SC Vivo City, 1058 Nguyễn Văn Linh, Quận 7"]
+                            },
+                            {
+                                "C": ["Wrap&Roll - Vincom Thủ Đức", 12, "Tầng 4, Vincom Thu Duc, 216 Võ Văn Ngân, Bình Thọ, Quận Thủ Đức"]
+                            },
+                            {
+                                "C": ["Wrap&Roll - Vincom Quận 9", 27, "Tầng 4, Vincom Lê Văn Việt, 50 Lê Văn Việt, Hiệp Phú, Quận 9"]
+                            },
+                            {
+                                "C": ["Wrap&Roll - Vincom Đồng Khởi", 1, "B23- 24 Vincom Lê Thánh Tôn, 72 Lê Thánh Tôn, Phường Bến Nghé, Quận 1"]
+                            },
+                            {
+                                "C": ["Wrap&Roll - SG Centre", "Tầng 5, Sài Gòn Centre, 65 Lê Lợi, Phường Bến Nghé, Quận 1"],
+                                "R": 2
+                            },
+                            {
+                                "C": ["Wrap&Roll - Nguyễn Đức Cảnh", 16, "006 Nguyễn Đức Cảnh, Quận 7"]
+                            },
+                            {
+                                "C": ["Wrap&Roll - MPlaza", 1, "Tầng trêt mPlaza, 39 Lê Duẩn, Quận 1"]
+                            },
+                            {
+                                "C": ["Wrap&Roll - Huỳnh Thúc Kháng", "11-13 Huỳnh Thúc Kháng, Phường Bến Nghé, Quận 1"],
+                                "R": 2
+                            },
+                            {
+                                "C": ["Wrap&Roll - Hai Bà Trưng", "62 Hai Bà Trưng, Phường Bến Nghé, Quận 1"],
+                                "R": 2
+                            },
+                            {
+                                "C": ["Wrap&Roll - Giga Mall Phạm Văn Đồng", 12, "Tầng 3, Giga Mall Phạm Văn Đồng, 242 Phạm Văn Đồng, Hiệp Bình Chánh, Quận Thủ Đức"]
+                            },
+                            {
+                                "C": ["Wrap&Roll - Estella Quận 2", 11, "Trung tâm thương mại Estela, Số 88 Đường Song Hành, Phường An Phú, Quận 2"]
+                            },
+                            {
+                                "C": ["Wrap&Roll - Đinh Tiên Hoàng", 3, "33 Đinh Tiên Hoàng, Quận Hoàn Kiếm"]
+                            },
+                            {
+                                "C": ["WOWBOX SALAD - Đề Thám", 1, "114/22 Đề Thám, P Cầu Ông Lãnh, Quận 1"]
+                            },
+                            {
+                                "C": ["WoW Men", 13, "394/1 Nguyễn Duy Dương, Phường 9, Quận 10, TP. HCM"]
+                            },
+                            {
+                                "C": ["Woodpecker coffee - Trung Kính", 5, "88 Trung Kính, phường Yên Hoà, quận Cầu Giấy"]
+                            },
+                            {
+                                "C": ["Wood coffee", 14, "463 Điện Biên Phủ, phường 25, quận Bình Thạnh"]
+                            },
+                            {
+                                "C": ["Woncha - 148 Nguyễn Chí Thanh", 13, "148 Nguyễn Chí Thanh, Phường 3, Quận 10"]
+                            },
+                            {
+                                "C": ["WON - 223 Bàu Cát", 0, "223 Bàu Cát, Phường 12, Quận Tân Bình"]
+                            },
+                            {
+                                "C": ["Winway Coffee & Tea", 16, "410B Lê Văn Lương, phường Tân Hưng, Quận 7"]
+                            },
+                            {
+                                "C": ["Wings coffee - Duy Tân", 5, "Số 22, ngõ 76, duy tân, P. Dịch Vọng Hậu, Quận Cầu Giấy"]
+                            },
+                            {
+                                "C": ["Winemart Online - Phan Xích Long", 9, "258 Phan Xích Long, Phường 2, Quận Phú Nhuận"]
+                            },
+                            {
+                                "C": ["Win Win Chicken - Hàm Nghi", 24, "B1-19 Vinhomes Gardenia đường Hàm Nghi, phường Cầu Diễn, Quận Nam Từ Liêm, Hà Nội"]
+                            },
+                            {
+                                "C": ["WIN ROME - Đinh Tiên Hoàng", 14, "127B-A1 Đinh Tiên Hoàng, Phường 3, quận Bình Thạnh"]
+                            },
+                            {
+                                "C": ["WIN HOUSE Coffee - Trường Sa", 10, "956 Trường Sa, Phường 13, Quận 3"]
+                            },
+                            {
+                                "C": ["Win 1981 - 58 Phạm Thị Khánh", 28, "58 Phạm Thị Khánh, Phường 4, Quận 8, Thành phố Hồ Chí Minh"]
+                            },
+                            {
+                                "C": ["Whose - Coffee and Tea", 18, "48-50 Nguyễn Văn Thủ, Phường Đa Kao, Quận 1"]
+                            },
+                            {
+                                "C": ["WHITE BOX Coffee - Nguyễn Văn Lượng", "65 Nguyễn Văn Lượng, Phường 17, Quận Gò Vấp"],
+                                "R": 2
+                            },
+                            {
+                                "C": ["WE Coffe & Juice", 1, "1/3 Pasteur, Phường Nguyễn Thái Bình, Quận 1"]
+                            },
+                            {
+                                "C": ["Wayne's Coffee - Viettel", 10, "Viettel Complex Building, 285 Cách Mạng Tháng Tám, Phường 12, Quận 10"]
+                            },
+                            {
+                                "C": ["Wayne's Coffee - Viễn Đông Hotel", 1, "Lobby Viễn Đông Hotel, 275A Pham Ngu Lao Street, District 1, HCMC"]
+                            },
+                            {
+                                "C": ["Wayne's Coffee - Saigon Trade Center", "Saigon Trade Center, 37 Tôn Đức Thắng, Bến Nghé, Quận 1"],
+                                "R": 2
+                            },
+                            {
+                                "C": ["Wayne's Coffee - Pandora", 20, "Pandora City Shopping Mall, 1/1 Trường Chinh, Quận Tân Phú"]
+                            },
+                            {
+                                "C": ["Wayne's Coffee - Gold View", 25, "The Gold View buiding, 346 Bến Vân Đồn, Phường 1, Quận 4"]
+                            },
+                            {
+                                "C": ["Wayne's Coffee - GigaMall", 12, "Sense Citi, tòa nhà GigaMall, 240- 242 Phạm Văn Đồng, Hiệp Bình Chánh, Thủ Đức"]
+                            },
+                            {
+                                "C": ["Wayne's Coffee - Bitexco", 1, "Bitexco Financial Tower, 2 Hải Triều, Bến Nghé, Quận 1"]
+                            },
+                            {
+                                "C": ["Wayne's Coffee - AB Tower", "AB Tower, 76A Lê Lai, Phường Bến Thành, Quận 1"],
+                                "R": 2
+                            },
+                            {
+                                "C": ["Watanabe", 4, "38 Cao Bá Quát, Ba Đình"]
+                            },
+                            {
+                                "C": ["WASH AND GO - Đoàn Như Hài", 25, "37/7 Đoàn Như Hài, Phường 12, Quận 4"]
+                            },
+                            {
+                                "C": ["WASH AND GO - Bùi Viện", 1, "74 Bùi Viện, Phường Phạm Ngũ Lão, Quận 1"]
+                            },
+                            {
+                                "C": ["Wanted", 5, "3A11 ngõ 215 Trần Quốc Hoàn, Hà Nội"]
+                            },
+                            {
+                                "C": ["WANT TEA - Sư Vạn Hạnh", 13, "824/24 Sư Vạn Hạnh, Phường 12, Quận 10"]
+                            },
+                            {
+                                "C": ["WANDER HOUSE COFFEE - NVĐậu", 14, "285 Nguyễn Văn Đậu, Phường 11, Quận Bình Thạnh"]
+                            },
+                            {
+                                "C": ["Wake Up Coffee - Ung Văn Khiêm", "31/17 Ung Văn Khiêm, Phường 25, Quận Bình Thạnh"],
+                                "R": 2
+                            },
+                            {
+                                "C": ["Wake - Vân Hồ 2", 8, "5 Vân Hồ 2, Phường Lê Đại Hành, Quận Hai Bà Trưng"]
+                            },
+                            {
+                                "C": ["Wacky Cow - Lê Lai", 1, "98A Lê Lai, Phường Bến Thành, Quận 1"]
+                            },
+                            {
+                                "C": ["Wacky Cow - 3 Tháng 2", 13, "85A đường 3 Tháng 2, Phường 11, Quận 10"]
+                            },
+                            {
+                                "C": ["W Book Coffee - Trần Hưng Đạo", 3, "46 Trần Hưng Đạo, Phường Hàng Bài, Quận Hoàn Kiếm"]
+                            },
+                            {
+                                "C": ["Vy Coffee - Trung Kính", 5, "Số 27 Trung Kính, Phường Trung Hòa, Quận Cầu Giấy"]
+                            },
+                            {
+                                "C": ["Vy Cafe", "56 EF tổ 25 tập thể thương mại,Mai dịch,Cầu Giấy"],
+                                "R": 2
+                            },
+                            {
+                                "C": ["Vuvuzela Vincom Thủ Đức", 12, "Tầng 5, 216 Võ Văn Ngân, Phường Bình Thọ, Quận Thủ Đức, TP. Hồ Chí Minh"]
+                            },
+                            {
+                                "C": ["Vuvuzela Trường Sơn", 0, "Saigon Superbowl, A43 Trường Sơn, Phường 4, Quận Tân Bình, TP. Hồ Chí Minh"]
+                            },
+                            {
+                                "C": ["Vuvuzela Tràng Thi", 3, "8 Tràng Thi, Phường Hàng Trống, Quận Hoàn Kiếm, Hà Nội"]
+                            },
+                            {
+                                "C": ["Vuvuzela Thái Hà", 6, "Tầng 2 TTTM Parkson cũ, số 1 Thái Hà, Phường Trung Liệt, Quận Đống Đa, Hà Nội"]
+                            },
+                            {
+                                "C": ["Vuvuzela Sunrise Trần Thái Tông", 5, "Tầng 1, Sunrise building, lô D11 khu đô thị mới Cầu giấy, Phường Dịch Vọng Hậu, Quận Cầu Giấy, Hà Nội"]
+                            },
+                            {
+                                "C": ["Vuvuzela SC Vivo City", 16, "Lô 05-06, TTTM SC Vivo City, số 1058 Nguyễn Văn Linh, Khu phố 1, Phường Tân Phong, Quận 7, TP. Hồ Chí Minh"]
+                            },
+                            {
+                                "C": ["Vuvuzela Phạm Ngọc Thạch", 6, "Tầng G2, Nhà B4 Kim Liên, Phường Kim Liên, Quận Đống Đa, Hà Nội"]
+                            },
+                            {
+                                "C": ["Vuvuzela Nguyễn Trãi", 21, "275 Nguyễn Trãi, Phường Thanh Xuân Trung, Quận Thanh Xuân, Hà Nội"]
+                            },
+                            {
+                                "C": ["Vuvuzela Nguyễn Khánh Toàn", 5, "22 Nguyễn Khánh Toàn, Phường Quan Hoa, Quận Cầu Giấy, Hà Nội"]
+                            },
+                            {
+                                "C": ["Vuvuzela Nguyễn Bỉnh Khiêm", 1, "Số 11B Nguyễn Bỉnh Khiêm, Phường Bến Nghé, Quận 1, TP. Hồ Chí Minh"]
+                            },
+                            {
+                                "C": ["Vuvuzela Lotte Mart Gò Vấp", 18, "18 Phan Văn Trị, Nguyễn Văn Lượng, Phường 10, Quận Gò Vấp, TP. Hồ Chí Minh"]
+                            },
+                            {
+                                "C": ["Vuvuzela Hoàng Đạo Thúy", 5, "17T5-T6 Hoàng Đạo Thúy, Phường Trung Hòa, Quận Cầu Giấy, Hà Nội"]
+                            },
+                            {
+                                "C": ["Vuvuzela Hà Đông", 19, "TTTM Hồ Gươm Plaza, 110 Trần Phú, Phường Mộ Lao, Quận Hà Đông, Hà Nội"]
+                            },
+                            {
+                                "C": ["Vuvuzela Artemis", 21, "Khu tam giác toà nhà Artemis 03 Lê Trọng Tấn, Phường Khương Mai, Quận Thanh Xuân, Hà Nội"]
+                            },
+                            {
+                                "C": ["Vuvuzela Aeon Bình Tân", 22, "TTTM Aeon Mall Bình Tân, số 01 đường 17A, Phường Bình Trị Đông B, Quận Bình Tân, TP. Hồ Chí Minh."]
+                            },
+                            {
+                                "C": ["Vượng Riêu - Trần Quốc Vượng", 5, "35 Trần Quốc Vượng, phường Dịch Vọng Hậu, quận Cầu Giấy"]
+                            },
+                            {
+                                "C": ["Vương Quốc Đậu Hủ - Diamond Plaza", 1, "Lầu 4, Trung Tâm Thương Mại Diamond, 34 Lê Duẩn, Phường Bến Nghé, Quận 1"]
+                            },
+                            {
+                                "C": ["Vượng Phát Mỳ Vằn Thắn - Sủi Cảo", 5, "Số 32, ngõ 76/2 Duy Tân, Phường Dịch Vọng Hậu, Quận Cầu Giấy"]
+                            },
+                            {
+                                "C": ["VƯỜN XANH COFFEE & MILK TEA - Nguyễn Đình Chiểu", 10, "436 Nguyễn Đình Chiểu , Phường 4, Quận 3"]
+                            },
+                            {
+                                "C": ["Vườn cây nội thất - Ana Garden", 9, "251 Nguyễn Trọng Tuyển, Phường 8, Quận Phú Nhuận"]
+                            },
+                            {
+                                "C": ["VUI COFFEE - Trần Văn Đang", 10, "219/91 Trần Văn Đang, Phường 11, Quận 3"]
+                            },
+                            {
+                                "C": ["VUI COFFEE - Nguyễn Thiện Thuật", "321 Nguyễn Thiện Thuật , Phường 1 , Quận 3"],
+                                "R": 2
+                            },
+                            {
+                                "C": ["VỰA_ QQ5 Ba Vì", 13, "QQ5 Ba Vì, Phường 15, Quận 10"]
+                            },
+                            {
+                                "C": ["Vua Tào Phớ - 192 Hàng Bông", 3, "192 Hàng Bông, phường Hàng Bông, quận Hoàn Kiếm, Hà Nội"]
+                            },
+                            {
+                                "C": ["Vua Tào Phớ - 110 Đào Tấn", 4, "110 Đào Tấn, phường Cống Vị, quận Ba Đình, Hà Nội"]
+                            },
+                            {
+                                "C": ["Vua Phụ Kiện Số 84 Bà Triệu", 8, "84 Bà Triệu, phường Trần Hưng Đạo, quận Hai Bà Trưng, Hà Nội"]
+                            },
+                            {
+                                "C": [7, "84 Bà Triệu, phường Trần Hưng Đạo, Quận Hai Bà Trưng"],
+                                "R": 1
+                            },
+                            {
+                                "C": ["Vua Phụ Kiện Số 75 Quán Thánh", 4, "75 Quán Thánh, phường Quán Thánh, quận Ba Đình, Hà Nội"]
+                            },
+                            {
+                                "C": ["Vua Phụ Kiên Số 75 Quán Thánh", "75 Quán Thánh, phường Quán Thánh, quận Ba Đình"],
+                                "R": 2
+                            },
+                            {
+                                "C": ["Vua Phụ Kiện Số 71 Thái Hà", 6, "71 Thái Hà , phường Trung Liệt, quận Đống Đa"]
+                            },
+                            {
+                                "C": ["71 Thái Hà, phường Trung Liệt, quận Đống Đa, Hà Nội"],
+                                "R": 3
+                            },
+                            {
+                                "C": ["Vua Phụ Kiện Số 69 Thái Hà", "69 Thái Hà, phường Trung Liệt, quận Đống Đa"],
+                                "R": 2
+                            },
+                            {
+                                "C": ["Vua Phụ Kiện Số 64 Thái Hà", "64 Thái Hà, phường Trung Liệt, quận Đống Đa, Hà Nội"],
+                                "R": 2
+                            },
+                            {
+                                "C": ["Vua Phụ Kiện Số 56 Thái Hà", "56 Thái Hà, phường Trung Liệt, quận Đống Đa, Hà Nội"],
+                                "R": 2
+                            },
+                            {
+                                "C": ["Vua Phụ Kiện Số 39 Hai Bà Trưng", 7, "39 Hai Bà Trưng, phường Trần Hưng Đạo, Quận Hai Bà Trưng"]
+                            },
+                            {
+                                "C": [3, "39 Hai Bà Trưng, phường Trần Hưng Đạo, quận Hoàn Kiếm, Hà Nội"],
+                                "R": 1
+                            },
+                            {
+                                "C": ["Vua Phụ Kiện Số 364 Xã Đàn", 6, "364 Xã Đàn, phường Nam Đồng, quận Đống Đa"]
+                            },
+                            {
+                                "C": ["Vua Phụ Kiện Số 3 Thái Hà", "3 Thái Hà, phường Trung Liệt, quận Đống Đa, Hà Nội"],
+                                "R": 2
+                            },
+                            {
+                                "C": ["Vua Phụ Kiện Số 194 Xã Đàn", "194 Xã Đàn, phường Phương Liên, quận Đống Đa, Hà Nội"],
+                                "R": 2
+                            },
+                            {
+                                "C": [29, "194 Xã Đàn, phường Phương Liên, quận Đống Đa"],
+                                "R": 1
+                            },
+                            {
+                                "C": ["Vua Phụ Kiện Số 150 Cầu Giấy", 5, "150 Cầu Giấy, phường Dịch Vọng, quận Cầu Giấy, Hà Nội"]
+                            },
+                            {
+                                "C": ["Vua Phụ Kiện Số 137 Thái Hà", 6, "137 Thái Hà, phường Trung Liệt, quận Đống Đa"]
+                            },
+                            {
+                                "C": ["137 Thái Hà, phường Trung Liệt, quận Đống Đa, Hà Nội"],
+                                "R": 3
+                            },
+                            {
+                                "C": ["Vua Gà Tươi Mạnh Hoạch - Miếu Đầm", 24, "58 Miếu Đầm, phường Mễ Trì, quận Nam Từ Liêm, Hà Nội"]
+                            },
+                            {
+                                "C": ["Vua Gà Tươi Mạnh Hoạch - Lê Thanh Nghị", 8, "108 E3 Lê Thanh Nghị, phường Bách Khoa, quận Hai Bà Trưng, Hà Nội"]
+                            },
+                            {
+                                "C": ["Vua gà nướng - Kim Mã", 4, "269 Kim Mã, phường Giảng Võ, quận Ba Đình"]
+                            },
+                            {
+                                "C": ["Vua chè sầu - Giáp Nhất", 21, "151 Giáp Nhất, Phường Thượng Đình,Quận Thanh Xuân"]
+                            },
+                            {
+                                "C": ["Vua chè sầu", "151 Giáp Nhất, phường Thượng Đình , quận Thanh Xuân"],
+                                "R": 2
+                            },
+                            {
+                                "C": ["Vua Ăn Vặt - Chùa Láng", 6, "Số 8 ngõ 91 Chùa Láng, phường Láng Thượng, quận Đống Đa, Hà Nội"]
+                            },
+                            {
+                                "C": ["Vũ Coffee", 14, "9/10 Nguyễn Huy Tưởng, Phường 6, Bình Thạnh"]
+                            },
+                            {
+                                "C": ["Vstore666", "58/146 Phan Chu Trinh, Phường 24, Quận Bình Thạnh"],
+                                "R": 2
+                            },
+                            {
+                                "C": ["V's Home", 3, "40 Đường Thành, Cửa Đông, Hoàn Kiếm"]
+                            },
+                            {
+                                "C": ["VỌNG NGUYỆT", 14, "36/70 Đường D2, Phường 25, Quận Bình Thạnh"]
+                            },
+                            {
+                                "C": ["Vối Coffee - KDC City Land", 18, "11 Đường số 3, KDC City Land, Phường 10, Quận Gò Vấp"]
+                            },
+                            {
+                                "C": ["Vối coffee", 16, "11F đường 4F,Tân Thuận Tây,Quận 7"]
+                            },
+                            {
+                                "C": ["VoBo Coffee", 14, "135/1/100 Nguyễn Hữu Cảnh, Phường 22, Quận Bình Thạnh"]
+                            },
+                            {
+                                "C": ["Vnam Coffee - Đường 65", 16, "130 Đường 65, Phường Tân Phong, Quận 7"]
+                            },
+                            {
+                                "C": ["Vivo Coffee Tea", 1, "35 Trần Đình Xu, P. Cầu Kho, Quận 1"]
+                            },
+                            {
+                                "C": ["Vivo Coffee & Tea Ung Văn Khiêm", 14, "31/22 Ung Văn Khiêm, Phường 15, Quận Bình Thạnh"]
+                            },
+                            {
+                                "C": ["Vivo Coffee & Tea Trần Đình Xu", 1, "35 Trần Đình Xu, P. Cầu Kho, Quận 1"]
+                            },
+                            {
+                                "C": ["Vivo Coffee & Tea Tân Mỹ", 16, "2/2 Tân Mỹ, P. Tân Thuận Tây, Quận 7"]
+                            },
+                            {
+                                "C": ["ViVo Coffee - Nguyễn Đình Chiểu", 10, "597 Nguyễn Đình Chiểu, Phường 2, Quận 3"]
+                            },
+                            {
+                                "C": ["Vivastar - Nguyễn Đình Khơi", 0, "42/1 Nguyễn Đình Khơi, Phường 4, Quận Tân Bình"]
+                            },
+                            {
+                                "C": ["VIVA STAR COFFEE_ Trường Sa", "1460 Trường Sa, phường 3, Quận Tân Bình"],
+                                "R": 2
+                            },
+                            {
+                                "C": ["Viva Star Coffee 370", 30, "370 Trần Văn Kiểu, Phường 11, Quận 6"]
+                            },
+                            {
+                                "C": ["Viva Star Coffee - Vĩnh Viễn", 13, "22 Vĩnh Viễn, Phường 2, Quận 10"]
+                            },
+                            {
+                                "C": ["Viva Star Coffee - Văn Cao", 20, "255 Văn Cao, Phường Phú Thạnh, Quận Tân Phú"]
+                            },
+                            {
+                                "C": ["Viva Star Coffee - Ung Văn Khiêm", 14, "60/8 Ung Văn Khiêm, Phường 25, Quận Bình Thạnh"]
+                            },
+                            {
+                                "C": ["Viva Star Coffee - Tôn Thất Hiệp", 17, "213 Tôn Thất Hiệp, Phường 12, Quận 11"]
+                            },
+                            {
+                                "C": ["Viva Star Coffee - Thuận Việt", "Hẻm 319 Lý Thường Kiệt, C16 KDC Thuận Việt, Quận 11"],
+                                "R": 2
+                            },
+                            {
+                                "C": ["Viva Star Coffee - Thiên Phước", "1 Thiên Phước, Phường 15, Quận 11"],
+                                "R": 2
+                            },
+                            {
+                                "C": ["Viva Star Coffee - Thạch Lam", 13, "63 Thạch Lam, Phường Hiệp Tân, Quận Tân Phú"]
+                            },
+                            {
+                                "C": ["Viva Star Coffee - Tạ Quang Bửu", 28, "906 Tạ Quang Bửu, Phường 5, Quận 8"]
+                            },
+                            {
+                                "C": ["Viva Star Coffee - Phan Huy Ích", 0, "67 Phan Huy Ích, Phường 15, Quận Tân Bình"]
+                            },
+                            {
+                                "C": ["Viva Star Coffee - Nguyễn Xí", 14, "205 Nguyễn Xí, Phường 26, Quận Bình Thạnh"]
+                            },
+                            {
+                                "C": ["Viva Star Coffee - Nguyễn Duy Trinh", 11, "409 Nguyễn Duy Trinh, Phường Bình Trưng Đông, Quận 2"]
+                            },
+                            {
+                                "C": ["Viva Star Coffee - Nguyễn Ảnh Thủ", 31, "38/5A Nguyễn Ảnh Thủ, Tổ 46, khu phố 4, Phường Hiệp Thành, Quận 12"]
+                            },
+                            {
+                                "C": ["Viva Star Coffee - Ngô Tất Tố", 14, "001 Lô A, Chung Cư Ngô Tất Tố, Phường 19, Quận Bình Thạnh"]
+                            },
+                            {
+                                "C": ["Viva Star Coffee - Lê Văn Thọ", 18, "310 Lê Văn Thọ, Phường 11, Quận Gò Vấp"]
+                            },
+                            {
+                                "C": ["Viva Star Coffee - Hồ Đắc Di", 20, "1 Hồ Đắc Di, Phường Tây Thạnh, Quận Tân Phú"]
+                            },
+                            {
+                                "C": ["Viva Star Coffee - Hiền Vương", "90 Hiền Vương, Phường Phú Thạnh, Quận Tân Phú"],
+                                "R": 2
+                            },
+                            {
+                                "C": ["Viva Star Coffee - Đường Số 7", 22, "462 Đường Số 7, Phường Tân Tạo, Quận Bình Tân"]
+                            },
+                            {
+                                "C": ["Viva Star Coffee - Đường Số 59", 18, "83 Đường Số 59, Phường 14, Quận Gò Vấp"]
+                            },
+                            {
+                                "C": ["Viva Star Coffee - Đường Số 10", "52, Đường Số 10, Phường 9, Quận Gò Vấp"],
+                                "R": 2
+                            },
+                            {
+                                "C": ["Viva Star Coffee - Đồng Hồ", 28, "34 Đồng Hồ, Phường 4, Quận 8"]
+                            },
+                            {
+                                "C": ["Viva Star Coffee - Đất Thánh", 0, "99 Đất Thánh, Phường 6, Quận Tân Bình"]
+                            },
+                            {
+                                "C": ["Viva Star Coffee - Chung cư A Ngô Gia Tự", 13, "Chung cư A Ngô Gia Tự, Phường 2, Quận 10"]
+                            },
+                            {
+                                "C": ["Viva Star Coffee - Bình Thành", 22, "112 Bình Thành, Phường Bình Hưng Hoà B, Quận Bình Tân"]
+                            },
+                            {
+                                "C": ["Viva Star Coffee - Bình Long", 20, "738 Bình Long, Phường Sơn Kỳ, Quận Tân Phú"]
+                            },
+                            {
+                                "C": ["Viva Star Coffee - Bình Lợi", 14, "144 Bình Lợi, Phường 13, Quận Bình Thạnh"]
+                            },
+                            {
+                                "C": ["Viva Star Coffee - Bình Giã", 0, "110 Bình Giã, Phường 13, Quận Tân Bình"]
+                            },
+                            {
+                                "C": ["Viva Star Coffee - Belleza", 16, "Góc đường số 2-4, chung cư Belleza, Phường Phú Mỹ, Quận 7"]
+                            },
+                            {
+                                "C": ["Viva Star Coffee - Bà Triệu", 8, "334 a Bà Triệu, Phường Lê Đại Hành, Quận Hai Bà Trưng"]
+                            },
+                            {
+                                "C": ["Viva Star Coffee - Bà Hạt", 13, "Đối diện chợ Nguyễn Tri Phương, góc ngã tư Nguyễn Lâm - Bà Hạt, Phường 6, Quận 10"]
+                            },
+                            {
+                                "C": ["Viva Star Coffee - Âu Dương Lân", 28, "269 Âu Dương Lân, Phường 2, Quận 8"]
+                            },
+                            {
+                                "C": ["Viva Star Coffee - 97 Bình Phú", 30, "97 Bình Phú, Phường 11, Quận 6"]
+                            },
+                            {
+                                "C": ["Viva Star Coffee - 95 Đường Số 1", 22, "95 Đường Số 1, Phường Bình Trị Đông, Quận Bình Tân"]
+                            },
+                            {
+                                "C": ["Viva Star Coffee - 94 Văn Cao", 20, "94 Văn Cao, Phường Phú Thọ Hoà, Quận Tân Phú"]
+                            },
+                            {
+                                "C": ["Viva Star Coffee - 84 Thành Thái", 13, "84 Thành Thái, Phường 14, Quận 10"]
+                            },
+                            {
+                                "C": ["Viva Star Coffee - 79 Đình Phong Phú", 27, "79 Đình Phong Phú, Khu Phố 1, Phường Tăng Nhơn Phú B, Quận 9"]
+                            },
+                            {
+                                "C": ["Viva Star Coffee - 72 Trần Tuấn Khải", 23, "72 Trần Tuấn Khải, Phường 5, Quận 5"]
+                            },
+                            {
+                                "C": ["Viva Star Coffee - 712 An Dương Vương", 30, "712 An Dương Vương, Phường 13, Quận 6"]
+                            },
+                            {
+                                "C": ["Viva Star Coffee - 6A Lê Lư", 20, "6A Lê Lư, Phường Phú Thọ Hoà, Quận Tân Phú"]
+                            },
+                            {
+                                "C": ["Viva Star Coffee - 696 Tân Kỳ Tân Quý", 22, "696 Tân Kỳ Tân Quý, Phường Bình Hưng Hoà A, Quận Bình Tân"]
+                            },
+                            {
+                                "C": ["Viva Star Coffee - 58 Hiền Vương", 20, "58 Hiền Vương, Phường Phú Thạnh, Quận Tân Phú"]
+                            },
+                            {
+                                "C": ["Viva Star Coffee - 50 Đường số 3", 22, "50 Đường số 3, Phường Bình Trị Đông B, Quận Bình Tân"]
+                            },
+                            {
+                                "C": ["Viva Star Coffee - 43D Kênh Tân Hoá", 20, "43D Kênh Tân Hoá, Phường Tân Thới Hoà, Quận Tân Phú"]
+                            },
+                            {
+                                "C": ["Viva Star Coffee - 429 Bình Trị Đông", 22, "429 Bình Trị Đông, Phường Bình Trị Đông A, Quận Bình Tân"]
+                            },
+                            {
+                                "C": ["Viva Star Coffee - 405 An Dương Vương", 30, "405 An Dương Vương, Phường 11, Quận 6"]
+                            },
+                            {
+                                "C": ["Viva Star Coffee - 347 Lê Văn Thọ", 18, "347 Lê Văn Thọ, Phường 9, Quận Gò Vấp"]
+                            },
+                            {
+                                "C": ["Viva Star Coffee - 314 Kênh Tân Hoá", 20, "32/64 Kênh Tân Hoá, Phường Phú Trung, Quận Tân Phú"]
+                            },
+                            {
+                                "C": ["Viva Star Coffee - 272 Thống Nhất", 18, "272 Thống Nhất, Phường 15, Quận Gò Vấp"]
+                            },
+                            {
+                                "C": ["Viva Star Coffee - 270 Cao Lỗ", 28, "55 Đường 270 Cao Lỗ, Phường 4, Quận 8"]
+                            },
+                            {
+                                "C": ["Viva Star Coffee - 27 Phan Đình Phùng", 20, "27 Phan Đình Phùng, Phường Tân Thành, Quận Tân Phú"]
+                            },
+                            {
+                                "C": ["Viva Star Coffee - 215 Phan Văn Hớn", 31, "215 Phan Văn Hớn, Phường Tân Thới Nhất, Quận 12"]
+                            },
+                            {
+                                "C": ["Viva Star Coffee - 213 Chợ Lớn", 30, "213 Chợ Lớn, Phường 11, Quận 6"]
+                            },
+                            {
+                                "C": ["Viva Star Coffee - 201 Đồng Đen", 0, "201 Đồng Đen, Phường 11, Quận Tân Bình"]
+                            },
+                            {
+                                "C": ["Viva Star Coffee - 15 Võ Văn Kiệt", 28, "15 Võ Văn Kiệt, Phường 16, Quận 8"]
+                            },
+                            {
+                                "C": ["Viva Star Coffee - 140 Đặng Văn Ngữ", 9, "140 Đặng Văn Ngữ, Phường 14, Quận Phú Nhuận"]
+                            },
+                            {
+                                "C": ["Viva Star - Đường 41", 16, "07 Đường 41, phường Tân Phong, quận 7"]
+                            },
+                            {
+                                "C": ["Viva International", 17, "25-27-29 Tống Văn Trân, Phường 5, Quận 11"]
+                            },
+                            {
+                                "C": ["VIVA COFFEE & FASTFOOD", 5, "Tòa ct3 chung cư Yên Hòa Park View, phường Yên Hòa, quận Cầu Giấy, Hà Nội"]
+                            },
+                            {
+                                "C": ["Viva Coffee - Sư Vạn Hạnh", 13, "573/14 Sư Vạn Hạnh (nd), Phường 13, Quận 10"]
+                            },
+                            {
+                                "C": ["VIVA BELLA ACOUSTIC 2 - Thành Mỹ", 0, "23-25 Thành Mỹ, Phường 8, Quận Tân Bình"]
+                            },
+                            {
+                                "C": ["VIVA BELLA - Tô Hiến Thành", 1, "163/21 Tô Hiến Thành, Phường 13, Quận 1"]
+                            },
+                            {
+                                "C": ["Vitamin Bar", 14, "71 Hoàng Hoa Thám, Phường 6, Bình Thạnh"]
+                            },
+                            {
+                                "C": ["Vịt Xiêm Hai Lúa - Mai Văn Vĩnh", 16, "30 Mai Văn Vĩnh, phường Tân Quy, quận 7"]
+                            },
+                            {
+                                "C": ["Vịt Quay Jacky - Tô Hiệu", 5, "293 Tô Hiệu, phường Dịch Vọng, quận Cầu Giấy"]
+                            },
+                            {
+                                "C": ["Vịt Quay Jacky - Bạch Mai", 7, "419 Bạch Mai, phường Bạch Mai, quận Hai Bà Trưng, Hà Nội"]
+                            },
+                            {
+                                "C": ["Vịt Quay Huỳnh Ký", 1, "2 bis Trần Quang Khải, Phường Tân Định, Quận 1"]
+                            },
+                            {
+                                "C": ["Vịt Cỏ Vân Đình - 78 Duy Tân", 5, "69 Ngõ 78 Duy Tân, Phường Dịch Vọng Hậu, Quận Cầu Giấy, Hà Nội"]
+                            },
+                            {
+                                "C": ["Vịt cỏ Minh Khánh", 21, "302 - 304 Vũ Hữu, Phường Thanh Xuân Trung, Quận Thanh Xuân"]
+                            },
+                            {
+                                "C": ["Vịt 34 - Nguyễn Văn Lộc", 19, "1 - 16B4 Nguyễn Văn Lộc, , Hà Đông, Hà Nội"]
+                            },
+                            {
+                                "C": ["Vịt 34 - Nguyễn Cơ Thạch", 24, "T1 Nhà C4 Nguyễn Cơ Thạch, Thị trấn Cầu Diễn , Nam Từ Liêm, Hà Nội"]
+                            },
+                            {
+                                "C": ["Vịt 34 - Nghĩa Tân", 5, "90 Nghĩa Tân, Nghĩa Tân , Cầu Giấy, Hà Nội"]
+                            },
+                            {
+                                "C": ["Vịt 34 - Mỹ Đình", 24, "34B Mỹ Đình, Mỹ Đình , Nam Từ Liêm, Hà Nội"]
+                            },
+                            {
+                                "C": ["Vịt 34 - Linh Đàm", 26, "12 dãy A lô TT3, khu ĐTM Tây Nam hồ Linh Đàm, , Hoàng Mai, Hà Nội"]
+                            },
+                            {
+                                "C": ["Vịt 19 - duy tân", 5, "Số 10 ngách 76/8 Duy Tân phường Dịch Vọng Hậu quận Cầu Giấy"]
+                            },
+                            {
+                                "C": ["Vina Nguyên Coffee - QL13", 14, "142 Quốc lộ 13, Phường 26, Quận Bình Thạnh"]
+                            },
+                            {
+                                "C": ["Vina Nguyên Coffee - Điện Biên Phủ", "184 Điện Biên Phủ, Phường 17, Quận Bình Thạnh"],
+                                "R": 2
+                            },
+                            {
+                                "C": ["VIKING STEAK - NTPhương", 23, "199 Nguyễn Tri Phương, Phường 9, Quận 5"]
+                            },
+                            {
+                                "C": ["VIKING STEAK - Đào Duy Từ", 13, "25 Đào Duy Từ, Phường 5, Quận 10"]
+                            },
+                            {
+                                "C": ["VIKING STEAK - Đặng Văn Bi", 12, "58 Đặng Văn Bi, Phường Bình Thọ, Quận Thủ Đức"]
+                            },
+                            {
+                                "C": ["Vietstreet Vincom quận 1", 1, "Vincom Center B, 72 Lê Thánh Tôn & 45A đường Lý Tự Trọng, phường Bến Nghé, quận 1"]
+                            },
+                            {
+                                "C": ["Vietstreet Trần Duy Hưng", 5, "Tầng 5 Vincom Center Trần Duy Hưng, Số 119 Trần Duy Hưng, Phường Trung Hòa, Quận Cầu Giấy, TP Hà Nội"]
+                            },
+                            {
+                                "C": ["Vietstreet Royal City", 21, "Tầng B2 Royal City, 72A Nguyễn Trãi, KĐT Royal City, phường Thượng Đình, quận Thanh Xuân"]
+                            },
+                            {
+                                "C": ["Vietstreet Phạm Ngọc Thạch", 6, "Tầng 5, Vincom Phạm Ngọc Thạch, 02 Phạm Ngọc Thạch, phường Kim Liên, quận Đống Đa"]
+                            },
+                            {
+                                "C": ["Vietstreet Nguyễn Chí Thanh", "Tầng 5, TTTM Vincom Center, 54A đường Nguyễn Chí Thanh, phường Láng Thượng, quận Đống Đa"],
+                                "R": 2
+                            },
+                            {
+                                "C": ["Vietstreet Lotte Tây Sơn", "Tầng 1 Lotte Mart, tòa nhà Mipec Tower, 229 Tây Sơn, phường Ngã Tư Sở, quận Đống Đa"],
+                                "R": 2
+                            },
+                            {
+                                "C": ["Vietstreet Liễu Giai", 4, "Tầng 3, tòa nhà Lotte Center, 54 đường Liễu Giai, phường Cống Vị, quận Ba Đình"]
+                            },
+                            {
+                                "C": ["Việt Xưa Quán", 6, "90 ngõ 167 Tây Sơn, phường Quang Trung,quận Đống Đa, thành phố Hà Nội"]
+                            },
+                            {
+                                "C": ["Việt Coffee", 5, "218 Trung Kính, Yên Hòa, Cầu Giấy"]
+                            },
+                            {
+                                "C": ["Việt Art Café", 8, "30 Thể Giao, Phường Lê Đại Hành, Quận Hai Bà Trưng"]
+                            },
+                            {
+                                "C": ["Viễn Thông An Phát - Bùi Thị Xuân", 0, "31A Bùi Thị Xuân, Phường 2, Quận Tân Bình"]
+                            },
+                            {
+                                "C": ["Vichy Xô Viết Nghệ Tĩnh", 14, "292 Xô Viết Nghệ Tĩnh, Phường 21, Quận Bình Thạnh, Tp. Hồ Chí Minh"]
+                            },
+                            {
+                                "C": ["Vichy Thái Hà", 6, "135 Thái Hà, Phường Trung Liệt,Quận Đống Đa, Tp. Hà Nội"]
+                            },
+                            {
+                                "C": ["Vichy Quang Trung", 18, "42 Quang Trung, Phường 11, Gò Vấp, Tp. Hồ Chí Minh"]
+                            },
+                            {
+                                "C": ["Vichy Nguyễn Trãi", 1, "144 Nguyễn Trãi, Phường Phạm Ngũ Lão, Quận 1, Tp. Hồ Chí Minh"]
+                            },
+                            {
+                                "C": ["Vichy Nguyễn Thi Thập", 16, "547 Nguyễn Thị Thập, PhườngTân Phú, Quận 7, Tp. Hồ Chí Minh"]
+                            },
+                            {
+                                "C": ["Vichy Nguyễn Đình Chiểu", 10, "293 Nguyễn Đình Chiểu, Phường 5, Quận 3, Hồ Chí Minh"]
+                            },
+                            {
+                                "C": ["Vichy Nail & Hair - Duy Tân", 5, "38 Duy Tân, phường Dịch Vọng Hậu, quận Cầu Giấy"]
+                            },
+                            {
+                                "C": ["Vichy Lê Văn Sỹ", 9, "144 Đường Lê Văn Sỹ, Phường 10, Quận Phú Nhuận"]
+                            },
+                            {
+                                "C": ["Vichy Kim Mã", 4, "93 Kim Mã, Phường Kim Mã, Quận Ba Đình, Tp. Hà Nội"]
+                            },
+                            {
+                                "C": ["Vichy Hậu Giang", 30, "100 Đường Hậu Giang, Phường 11, Quận 6, Tp. Hồ Chí Minh"]
+                            },
+                            {
+                                "C": ["Vichy Hai Bà Trưng", 1, "256 Hai Bà Trưng, Phường Tân Định, Quận 1, Tp. Hồ Chí Minh"]
+                            },
+                            {
+                                "C": ["Vichy 3 tháng 2", 13, "172 Đường 3/2, Phường 12, Quận 10"]
+                            },
+                            {
+                                "C": ["Vice City - Hoàng Sa", 1, "93 Hoàng Sa, Phường Đakao, Quận 1"]
+                            },
+                            {
+                                "C": ["Vian Juice", 3, "11 Phan Bội Châu,Cửa Nam,Quận Hoàn Kiếm"]
+                            },
+                            {
+                                "C": ["Vi Ta - Vân Hồ 2", 8, "15 Vân Hồ 2, Phường Lê Thanh Nghị, Quận Hai Bà Trưng"]
+                            },
+                            {
+                                "C": ["Vị sài gòn 41 Trần Nhật Duật", 1, "41 trần nhật duật , p.tân định , quận 1"]
+                            },
+                            {
+                                "C": ["Vị Sài Gòn - Nguyễn Tri Phương", 13, "487 Nguyễn Tri Phương, Quận 10"]
+                            },
+                            {
+                                "C": ["Ví Da Nam Handmade Khắc Tên", 0, "119/4 Trần Văn Dư, Phường 13, Quận Tân Bình"]
+                            },
+                            {
+                                "C": ["Vessly Coffee (Coffee 2K)", 25, "97 Lê Quốc Hưng,12,Quận 4"]
+                            },
+                            {
+                                "C": ["Vero Go - Kênh Tân Hóa", 20, "533 Kênh Tân Hóa, phường Hòa Thạnh, quận Tân Phú"]
+                            },
+                            {
+                                "C": ["Vero Go - Điện Biên Phủ", 14, "602/19 Điện Biên Phủ, Phường 22, Quận Bình Thạnh"]
+                            },
+                            {
+                                "C": ["VeRo Coffee - Nơ Trang Long", "351B Nơ Trang Long, Phường 13, Q. Bình Thạnh"],
+                                "R": 2
+                            },
+                            {
+                                "C": ["VERA Vạn Hạnh Mall", 13, "Tầng 2, Vạn Hạnh Mall, 11 Sư Vạn Hạnh, Phường 12, Quận 10"]
+                            },
+                            {
+                                "C": ["VERA Trần Đăng Ninh", 5, "115 Trần Đăng Ninh, Phường Dịch Vọng, Quận Cầu Giấy"]
+                            },
+                            {
+                                "C": ["VERA Ông Ích Khiêm", 17, "144 Ông Ích Khiêm, Phường 5, Quận 11"]
+                            },
+                            {
+                                "C": ["VERA Hàng Bông", 3, "68 Hàng Bông, Phường Hàng Bông, Quận Hoàn Kiếm"]
+                            },
+                            {
+                                "C": ["VERA Hai Bà Trưng", 1, "356 Hai Bà Trưng, Phường Tân Định, Quận 1"]
+                            },
+                            {
+                                "C": ["VERA Chùa Bộc", 6, "171 Chùa Bộc, Phường Trung Liệt, Quận Đống Đa"]
+                            },
+                            {
+                                "C": ["VERA Cao Thắng", 10, "Số 58A Cao Thắng, Phường 5, Quận 3"]
+                            },
+                            {
+                                "C": ["VERA Ba Tháng Hai", 13, "72 Đường 3 tháng 2, Phường 12, Quận 10"]
+                            },
+                            {
+                                "C": ["VERA A58 Nguyễn Trãi", 1, "A58 Nguyễn Trãi, Phường Nguyễn Cư Trinh, Quận 1"]
+                            },
+                            {
+                                "C": ["VERA 85A Nguyễn Trãi", 23, "85A Nguyễn Trãi, Phường 2, Quận 5"]
+                            },
+                            {
+                                "C": ["VERA 421 Nguyễn Trãi", "Số 421 Nguyễn Trãi, Phường 7, Quận 5"],
+                                "R": 2
+                            },
+                            {
+                                "C": ["Velo Coffee", 1, "286 Võ Văn Kiệt, Phường Cầu Ông Lãnh, Quận 1"]
+                            },
+                            {
+                                "C": ["Velo cafe", 2, "71 Nguyễn Đình Thi, Thụy Khuê, Tây Hồ"]
+                            },
+                            {
+                                "C": ["VEGGIE SAI GON - Bếp Chay 365 - Đề Thám", 1, "42 Đề Thám, P Cầu Ông Lãnh, Quận 1"]
+                            },
+                            {
+                                "C": ["VECIC Coffee - C18", 0, "83 Đường C18, Phường 12, Quận Tân Bình"]
+                            },
+                            {
+                                "C": ["Vascara Vincom Trần Trọng Cung", 16, "Vincom Nam Long - Gian hàng L1-02, KĐT Nam Long, Đường Trần Trọng Cung, Phường Tân Thuận Đông, Quận 7"]
+                            },
+                            {
+                                "C": ["Vascara Vincom Thảo Điền", 11, "Vincom Mega Mall Thảo Điền, Phường Thảo Điền, Quận 2"]
+                            },
+                            {
+                                "C": ["Vascara Vincom Royal City", 21, "Gian hàng B1-R6-31, TTTM Vincom Royal, số 72A đường Nguyễn Trãi, Phường Thượng Đình, Quận Thanh Xuân"]
+                            },
+                            {
+                                "C": ["Vascara Vincom Maximart Cộng Hoà", 0, "Vincom Maximart Cộng Hòa, tầng L1 - gian hàng L1-41A, 15-17 Cộng Hòa, Quận Tân Bình"]
+                            },
+                            {
+                                "C": ["Vascara Vạn Hạnh Mall", 13, "Vascara Vạn Hạnh Mall, tầng L1, Gian hàng L1 - 25, 11 Sư Vạn Hạnh, Quận 10"]
+                            },
+                            {
+                                "C": ["Vascara Quốc Lộ 50", 32, "A3/9 Quốc Lộ 50, Ấp 1, Xã Bình Hưng, Huyện Bình Chánh"]
+                            },
+                            {
+                                "C": ["Vascara Landmark 81", 14, "Vincom Landmark 81, tầng L3, gian hàng L3-08, 208 Nguyễn Hữu Cảnh, Phường 22, Quận Bình Thạnh"]
+                            },
+                            {
+                                "C": ["Vascara 75 Hàng Bông", 3, "75 Hàng Bông, Phường Hàng Bông, Quận Hoàn Kiếm"]
+                            },
+                            {
+                                "C": ["Vascara 748 Tỉnh Lộ 10", 22, "748 Tỉnh Lộ 10, Khu phố 18, Phường Bình Trị Đông, Quận Bình Tân"]
+                            },
+                            {
+                                "C": ["Vascara 739 Kha Vạn Cân", 12, "739 Kha Vạn Cân, Phường Linh Đông, Quận Thủ Đức"]
+                            },
+                            {
+                                "C": ["Vascara 716 Lê Trọng Tấn", 22, "716 Lê Trọng Tấn, Phường Bình Hưng Hòa, Quận Bình Tân"]
+                            },
+                            {
+                                "C": ["Vascara 58 Nguyễn Trãi", 23, "58 Nguyễn Trãi, Phường 3, Quận 5"]
+                            },
+                            {
+                                "C": ["Vascara 530 Lê Văn Sỹ", 10, "530 Lê Văn Sỹ, Phường 14, Quận 3"]
+                            },
+                            {
+                                "C": ["Vascara 513 Sư Vạn Hạnh", 13, "513 Sư Vạn Hạnh, Phường 12, Quận 10"]
+                            },
+                            {
+                                "C": ["Vascara 478 CMT8", 10, "478 Cách Mạng Tháng 8, Phường 11, Quận 3"]
+                            },
+                            {
+                                "C": ["Vascara 469 Nguyễn Hữu Thọ", 16, 29]
+                            },
+                            {
+                                "C": ["Vascara 390 Xã Đàn", 6, "390 Xã Đàn, Phường Nam Đồng, Quận Đống Đa"]
+                            },
+                            {
+                                "C": ["Vascara 375 Nguyễn Đình Chiểu", 10, "375-377 Nguyễn Đình Chiểu, Phường 5, Quận 3"]
+                            },
+                            {
+                                "C": ["Vascara 337 Huỳnh Tấn Phát", 16, "337 Huỳnh Tấn Phát, Tân Thuận Đông, Quận 7"]
+                            },
+                            {
+                                "C": ["Vascara 286 Võ Văn Ngân", 12, "286 Võ Văn Ngân, Phường Bình Thọ, Quận Thủ Đức"]
+                            },
+                            {
+                                "C": ["Vascara 248 Cầu Giấy", 5, "248 Cầu Giấy, Phường Quan Hoa, Quận Cầu Giấy"]
+                            },
+                            {
+                                "C": ["Vascara 224 Bạch Mai", 8, "224 Bạch Mai, Phường Cầu Đền, Quận Hai Bà Trưng"]
+                            },
+                            {
+                                "C": ["Vascara 210 Tỉnh Lộ 8", 33, "210 - 212 Tỉnh Lộ 8, Thị Trấn Củ Chi, Huyện Củ Chi"]
+                            },
+                            {
+                                "C": ["Vascara 204A Nguyễn Thị Định", 11, "204A Nguyễn Thị Định, Ấp 2, Phường An Phú, Quận 2"]
+                            },
+                            {
+                                "C": ["Vascara 195 Lê Văn Việt", 27, "195 Lê Văn Việt, Phường Hiệp Phú, Quận 9"]
+                            },
+                            {
+                                "C": ["Vascara 189A Cống Quỳnh", 1, "189A Cống Quỳnh, Phường Nguyễn Cư Trinh, Quận 1"]
+                            },
+                            {
+                                "C": ["Vascara 116 Phan Đình Phùng", 9, "116-118 Phan Đình Phùng, Phường 2, Quận Phú Nhuận"]
+                            },
+                            {
+                                "C": ["Vascara 114 Trần Duy Hưng", 5, "114 Trần Duy Hưng, Phường Trung Hòa, Quận Cầu Giấy"]
+                            },
+                            {
+                                "C": ["Vascara 108 Tây Sơn", 6, "108 Tây Sơn, Phường Quang Trung, Quận Đống Đa"]
+                            },
+                            {
+                                "C": ["Vascara 02 Phạm Ngọc Thạch", "Vincom 02 Phạm Ngọc Thạch, Phương Trung Tự, Quận Đống Đa"],
+                                "R": 2
+                            },
+                            {
+                                "C": ["Vape Center", 0, "123 Đường A4, Phường 12, Quận Tân Bình"]
+                            },
+                            {
+                                "C": ["Vana - Nguyễn Chí Thanh", 6, "72 Nguyễn Chí Thanh, phường Láng Thượng, Quận Đống Đa"]
+                            },
+                            {
+                                "C": ["Vana - Kim Ngưu", 7, "164 Kim Ngưu, Phường Thanh Nhàn, Quận Hai Bà Trưng"]
+                            },
+                            {
+                                "C": ["Vana - Hoàng Quốc Việt", 5, "305 Hoàng Quốc Việt, Phường Nghĩa Tân, Quận Cầu Giấy"]
+                            },
+                            {
+                                "C": ["Vân Vịt - Bờ sông Kim Đồng", 26, "68 Bờ Sông Kim Đồng, phường Tân Mai, quận Hoàng Mai"]
+                            },
+                            {
+                                "C": ["Vân Béo - Đặc Sản Đà Nẵng", 21, "69 Ngụy Như Kon Tum, phường Nhân Chính, quận Thanh Xuân"]
+                            },
+                            {
+                                "C": ["Vân Béo - 11 Trần Quốc Hoàn", 5, "11 Trần Quốc Hoàn, Phường Dịch Vọng Hậu, Quận Cầu Giấy"]
+                            },
+                            {
+                                "C": ["Vân Anh_Nguyễn Thái Bình", 0, "248/23 Nguyễn Thái Bình, Phường 12, Quận Tân Bình"]
+                            },
+                            {
+                                "C": ["VALUE GREEN TEA", 18, "106 Nguyễn Văn Lượng, Phường 17, Quận Gò Vấp"]
+                            },
+                            {
+                                "C": ["Valen Coffee", 1, "001 Lô 3 cc 1A-1B Nguyễn Đình Chiểu, Hoàng Sa,Da Kao,Quận 1"]
+                            },
+                            {
+                                "C": ["V Coffee & Tea - Mỹ Giang", 16, "số 1 Mỹ Giang, 1B Phú Mỹ Hưng, Tân Phong, quận 7"]
+                            },
+                            {
+                                "C": ["Uy Phúc Cafe & Ăn Vặt- Bắc Hải", 13, "95/20 Bắc Hải, Phường 15 ,Quận 10"]
+                            },
+                            {
+                                "C": ["UTOPIA COFFEE - HÀNG ĐIẾU", 3, "56 Hàng Điếu, Phường Cửa Đông, Quận Hoàn Kiếm"]
+                            },
+                            {
+                                "C": ["UTOPIA - LƯƠNG YÊN", 8, "1Lương Yên, Phường Bạch Đằng, Quận Hai Bà Trưng"]
+                            },
+                            {
+                                "C": ["UTOPIA - LÒ ĐÚC", "117 Lò Đúc, Phường Đống Mác, Quận Hai Bà Trưng"],
+                                "R": 2
+                            },
+                            {
+                                "C": ["Út Lúa - Phan Đăng Lưu", 9, "115 Phan Đăng Lưu, Phường 7, Quận Phú Nhuận"]
+                            },
+                            {
+                                "C": ["ÚT LÚA", 10, "226 LÝ CHÍNH THẮNG, P9, Q3"]
+                            },
+                            {
+                                "C": ["Út Cà Phê - Chu Văn An", 14, "204 Chu Văn An, Phường 26, Bình Thạnh"]
+                            },
+                            {
+                                "C": ["US MART Trần Hưng Đạo", 1, "329 Trần Hưng Đạo, Phường Cô Giang, Quận 1"]
+                            },
+                            {
+                                "C": ["US MART Nguyễn Đức Cảnh", 16, "169 Nguyễn Đức Cảnh, Phường Tân Phong, Quận 7"]
+                            },
+                            {
+                                "C": ["US MART Gigamall", 12, "Lầu 4, Trung Tâm Thương Mại Gigamall, 240 - 242 Phạm Văn Đồng, Hiệp Bình Chánh, Quận Thủ Đức"]
+                            },
+                            {
+                                "C": ["URBAN STATION- Trà Khúc", 0, "Số 1 Trà Khúc, Phường 2, Quận Tân Bình"]
+                            },
+                            {
+                                "C": ["URBAN STATION- Hòa Bình", 20, "180B Hoà Bình, Phường Hiệp Tân, Quận Tân Phú"]
+                            },
+                            {
+                                "C": ["URBAN STATION COFFEE_CMT8", 0, "745 Cách Mạng Tháng 8, phường 6, quận Tân Bình"]
+                            },
+                            {
+                                "C": ["Urban Station Coffee - Chùa Láng", 6, "Số 100 Chùa Láng, phường Láng Thượng, quận Đống Đa, Hà Nội"]
+                            },
+                            {
+                                "C": ["Urban Station Cafe", "7 ngõ 82 Phạm Ngọc Thạch, phường Quang Trung, quận Đống Đa, thành phố Hà Nội"],
+                                "R": 2
+                            },
+                            {
+                                "C": ["URBAN STATION- Bàu Cát", 0, "172 Bàu Cát, Phường 14, Quận Tân Bình"]
+                            },
+                            {
+                                "C": ["Urban Station - Tạ Quang Bửu", 7, "22 Tạ Quang Bửu, Phường Bách Khoa, Quận Hai Bà Trưng"]
+                            },
+                            {
+                                "C": ["URBAN COFFEE_ Tô Hiến Thành", 13, "288 Tô Hiến Thành , Phường 15, Quận 10"]
+                            },
+                            {
+                                "C": ["Ur Matcha & Cafe - Nguyễn Huệ", 1, "41 Nguyễn Huệ, Phường Bến Nghé, Quận 1"]
+                            },
+                            {
+                                "C": ["Up to Seconds – Tương Lai", 7, "44 đường Tương Lai, Times City, 458 Minh Khai, phường Vĩnh Tuy, quận Hai Bà Trưng, Hà Nội"]
+                            },
+                            {
+                                "C": ["Up to Seconds – Thái Hà", 6, "25 Thái Hà, phường Trung Liệt, quận Đống Đa, Hà Nội"]
+                            },
+                            {
+                                "C": ["Up to Seconds – Phố Huế", 3, "2 Phố Huế, phường Hàng Bài, quận Hoàn Kiếm, Hà Nội"]
+                            },
+                            {
+                                "C": ["Up to Seconds – Phan Đình Phùng", 4, "43 Phan Đình Phùng, phường Quán Thánh, quận Ba Đình, Hà Nội"]
+                            },
+                            {
+                                "C": ["Up to Seconds – Phạm Ngọc Thạch", 6, "110.B1 Phạm Ngọc Thạch, phường Trung Tự, quận Đống Đa, Hà Nội"]
+                            },
+                            {
+                                "C": ["Up to Seconds – Nguyễn Văn Cừ", 15, "377-379 Nguyễn Văn Cừ; phường Ngọc Lâm, quận Long Biên, Hà Nội"]
+                            },
+                            {
+                                "C": ["Up to Seconds – Nguyễn Trãi HCM", 1, "107 Nguyễn Trãi, phường Phạm Ngũ Lão, Quận 1, Hồ Chí Minh"]
+                            },
+                            {
+                                "C": ["Up to Seconds – Lê Lợi", 19, "4 Lê Lợi, phường Nguyễn Trãi, quận Hà Đông, Hà Nội"]
+                            },
+                            {
+                                "C": ["Up to Seconds – Hàng Nón", 3, "60 Hàng Nón, phường Hàng Gai, quận Hoàn Kiếm, Hà Nội"]
+                            },
+                            {
+                                "C": ["Up to Seconds – Cầu Giấy", 5, "181 Cầu Giấy, phường Dịch Vọng, quận Cầu Giấy, Hà Nội"]
+                            },
+                            {
+                                "C": ["Up to Seconds – Aeon Mall", 15, "T245 Aeon Mall Long Biên, số 27 Cổ Linh, phường Long Biên, quận Long Biên, Hà Nội"]
+                            },
+                            {
+                                "C": ["UNU Cream - Hoàng Sa", 0, "1279 Hoàng Sa, Phường 5, Quận Tân Bình"]
+                            },
+                            {
+                                "C": ["UNT Tra Sua Malaysia", 1, "99 Trần Quang Khải, P. Tân Định, Quận 1"]
+                            },
+                            {
+                                "C": ["Uno Tea & Milk Tea", 9, "175 Huỳnh Văn Bánh, Phường 12, Phú Nhuận"]
+                            },
+                            {
+                                "C": ["Uno coffee & milk tea", 14, "35 Ung Văn Khiêm, Phường 25, quận Bình Thạnh"]
+                            },
+                            {
+                                "C": ["Uncle Tea Lê Lợi", 18, "60 Lê Lợi, Phường 4, Quận Gò Vấp, TP. Hồ Chí Minh"]
+                            },
+                            {
+                                "C": ["Uncle Tea - Hồ Tùng Mậu", 5, "82 Hồ Tùng Mậu, phường Mai Dịch, quận Cầu Giấy, Hà Nội"]
+                            },
+                            {
+                                "C": ["Uncle Tea - Đinh Tiên Hoàng", 1, "33 Đinh Tiên Hoàng, Phường Đa Kao, Quận 1"]
+                            },
+                            {
+                                "C": ["Uncle Tea", 8, "403 Bạch Mai, Phường Bạch Mai, Quận Hai Bà Trưng"]
+                            },
+                            {
+                                "C": ["Uncle Lu’s Cheesecake Vincom Trần Duy Hưng", 5, "L5-K2, Vincom Trần Duy Hưng, đường Trần Duy Hưng, Cầu Giấy, Hà Nội"]
+                            },
+                            {
+                                "C": ["Uncle Lu’s Cheesecake Vincom Royal City", 21, "R4-15C, tầng B2, Vincom Mega Mall Royal City, 72A Nguyễn Trãi, Thanh Xuân, Hà Nội"]
+                            },
+                            {
+                                "C": ["Uncle Lu’s Cheesecake Ô Chợ Dừa", 6, "24 Ô Chợ Dừa, Đống Đa, Hà Nội"]
+                            },
+                            {
+                                "C": ["Uncle Lu’s Cheese Cake Vincom Metropolis", 4, "29 Liễu Giai, Quận Ba Đình"]
+                            },
+                            {
+                                "C": ["Uncle Lu’s Cheese Cake Sư Vạn Hạnh", 13, "652 Sư Vạn Hạnh, Phường 12, Quận 10"]
+                            },
+                            {
+                                "C": ["Uncle Lu’s Cheese Cake Phan Xích Long", 9, "209 Phan Xích Long, Phường 7, Quận Phú Nhuận"]
+                            },
+                            {
+                                "C": ["Uncle Lu’s Cheese Cake Huỳnh Thúc Kháng", 1, "25 Huỳnh Thúc Kháng, Phường Bến Nghé, Quận 1"]
+                            },
+                            {
+                                "C": ["Ủn Ỉn Quán 1971", 4, "70 Nguyễn Trường Tộ, Phường Trúc Bạch, Quận Ba Đình"]
+                            },
+                            {
+                                "C": ["UMAI Cơm Phở", 21, "175 Nguyễn Xiển, phường Hạ Đình, quận Thanh Xuân"]
+                            },
+                            {
+                                "C": ["Udon- Bàu Cát", 0, "170 Bàu Cát, Phường 14, Tân Bình"]
+                            },
+                            {
+                                "C": ["Uchi Sushi - Đường 45", 25, "14 Đường 45, Phường 6, Quận 4, TP Hồ Chí Minh"]
+                            },
+                            {
+                                "C": ["U-base Food Court - Duy Tân", 5, "Số 28 ngách 2 ngõ 76 phố Duy Tân phường Dịch Vọng Hậu Cầu Giấy"]
+                            },
+                            {
+                                "C": ["Ừ THÌ CAFE - Đồng Đen", 0, "294-296 Đồng Đen, Phường 10, Quận Tân Bình"]
+                            },
+                            {
+                                "C": ["U- Coffee", "Số 6, Bàu Cát 1, Phường 14, Quận Tân Bình"],
+                                "R": 2
+                            },
+                            {
+                                "C": ["U CAFÉ - Landmark 1", 14, "Tầng Trệt L1-0.SH06 Tòa Nhà Landmark 1, 720A Điện Biên Phủ, Phường 22, Quận Bình Thạnh"]
+                            },
+                            {
+                                "C": ["TWO N COFFEE - Vũ Huy Tấn", "56 Vũ Huy Tấn, Phường 3, Quận Bình Thạnh"],
+                                "R": 2
+                            },
+                            {
+                                "C": ["Twitter Beans Coffee Thăng Long Number 1", 5, "Tầng 1, tòa nhà Thăng Long Number One, số 1 đại lộ Thăng Long, quận Cầu Giấy, Hà Nội"]
+                            },
+                            {
+                                "C": ["Twitter Beans Coffee Phạm Văn Đồng", 34, "Tầng 1, Tòa A5, An Bình City, 234 Phạm Văn Đồng, phường Cổ Nhuế 1 quận Bắc Từ Liêm"]
+                            },
+                            {
+                                "C": ["Twitter Beans Coffee Phạm Hùng", 24, "Tầng 1, tòa nhà Sông Đà, đường Phạm Hùng, phường Mỹ Đình, quận Nam Từ Liêm"]
+                            },
+                            {
+                                "C": ["Twitter Beans Coffee Nguyễn Cơ Thạch", "Tầng 1, tòa nhà Golden Field, 24 Nguyễn Cơ Thạch, quận Nam Từ Liêm"],
+                                "R": 2
+                            },
+                            {
+                                "C": ["Twitter Beans Coffee Ngoại Giao Đoàn", 21, "Số 29 ngõ 93 phố Vũ Hữu, đường Khuất Duy Tiến, phường Thanh Xuân Bắc, quận Thanh Xuân"]
+                            },
+                            {
+                                "C": ["Twitter Beans Coffee Láng Hòa Lạc", 35, "Khu DV04 khu CNC Láng Hòa Lạc, xã Thạch Hòa, huyện Thạch Thất"]
+                            },
+                            {
+                                "C": ["Twitter Beans Coffee Khuất Duy Tiến", 21, "Tầng 1, tòa Licogi 13, số 164 Khuất Duy Tiến, phường Nhân Chính, quận Thanh Xuân"]
+                            },
+                            {
+                                "C": ["Twitter Beans Coffee Hoàng Đạo Thúy", "Tầng 1, tòa 17T5 Hoàng Đạo Thúy, quận Thanh Xuân, Hà Nội"],
+                                "R": 2
+                            },
+                            {
+                                "C": ["Twitter Beans Coffee Duy Tân", 5, "Tầng 1, Tòa nhà Việt Á, Duy Tân, Cầu Giấy"]
+                            },
+                            {
+                                "C": ["Twist Coffee - Xuân Thủy", 11, "88 Xuân Thủy, Phường Thảo Điền, Quận 2"]
+                            },
+                            {
+                                "C": ["Twins Coffee- 6 Ngõ 102 Ngụy Như Kom Tum", 21, "6 Ngõ 102 Ngụy Như Kom Tum, phường nhân chính, quận thanh xuân, thành phố Hà nội"]
+                            },
+                            {
+                                "C": ["Turin Coffee - 3 Tháng 2", 13, "635Bis 3 Tháng 2, Phường 6, Quận 10"]
+                            },
+                            {
+                                "C": ["TƯỞNG NIỆM - Chu Văn An", 14, "419/1 Chu Văn An, Phường 12, Quận Bình Thạnh"]
+                            }]
+                        }],
+                        "IC": false,
+                        "RT": [
+                            ["'TƯỞNG NIỆM - Chu Văn An'", "'Quận Bình Thạnh'", "'419/1 Chu Văn An, Phường 12, Quận Bình Thạnh'"]
+                        ],
+                        "ValueDicts":
+                        {
+                            "D0": ["Z'UP Coffee and Tea_ Tân Hải", "ZUNI COFFEE & TEA - Trần Quang Khải", "Zun Kun's Coffee 169 Vệ Hồ", "Zun Kun's Coffee - 123 Trích Sài", "Zulu Cafe", "Zui n Juices", "Zozo Coffee", "Zòn Bánh Mỳ", "Ziing - Đông Tác", "Zet House - Trần Khát Chân", "Zet House", "ZEST COFFEE - Nguyễn Văn Đậu", "ZERO FUNITURE & COFFEE - Nam Kỳ Khởi Nghĩa", "ZéPhyr Cafe", "ZEBRA Milk Tea & Coffee", "Z-Coffee", "Zamy - Trần Đại Nghĩa", "Z KAFFE - Song Hành Xa Lộ Hà Nội", "Yves Rocher Vincom Thủ Đức", "Yves Rocher Vạn Hạnh Mall", "Yves Rocher Times City Vincom Mega Mall", "Yves Rocher Thảo Điền", "Yves Rocher SSG Văn Thánh", "Yves Rocher Savico", "Yves Rocher Sài Gòn Center", "Yves Rocher Quán Thánh", "Yves Rocher Q3 Hai Bà Trưng", "Yves Rocher Q1 Hai Bà Trưng", "Yves Rocher Masteri Thảo Điền", "Yves Rocher Lotte Quận 7", "Yves Rocher Lotte Q11", "Yves Rocher Lotte Đào Tấn", "Yves Rocher Lê Văn Sỹ PN", "Yves Rocher Landmark 81", "Yves Rocher Kim Mã", "Yves Rocher Indochina", "Yves Rocher Hàng Trống", "Yves Rocher Hàng Bông", "Yves Rocher Estella", "Yves Rocher Emart Gò Vấp", "Yves Rocher Discovery Complex", "Yves Rocher CMT8", "Yves Rocher Chùa Bộc", "Yves Rocher BigC Hồ Gươm", "Yves Rocher Big C Thăng Long", "Yves Rocher Big C Pandora", "Yves Rocher Big C Oriental", "Yves Rocher Big C Lê Trọng Tấn", "Yves Rocher Bà Triệu", "Yves Rocher Aeon Celadon Tân Phú", "Yuong Life - Nước Ép Sinh Tố", "Yummy - Phan Văn Trường", "Yummy", "Yumi Coffee", "Yume Milk Tea", "Yum Thai - Ung Văn Khiêm", "Yuki Sushi - Phan Xich Long", "Yuki Sushi - Hoa Lan", "YUAN CHA COFFEE - CMT8", "Yuan cha", "Yu Tang Vạn Hạnh Mall (To Be Deleted)", "Yu Tang Thái Phiên (To Be Deleted)", "Yu Tang Lý Thường Kiệt (To Be Deleted)", "Yu Tang Dining Giga Mall (To Be Deleted)", "Yu Tang Dining Big C (To Be Deleted)", "Yu Tang Chùa Láng (To Be Deleted)", "Yu Tang - Vạn Hạnh Mall", "Yu Tang - Thái Phiên", "Yu Tang - Lý Thường Kiệt", "Yu Tang - Dining Giga Mall", "Yu Tang - Dining BigC", "Yu Tang - Chùa Láng", "YOURS Bing Su - 187 Bàu Cát", "YOURS", "Your Juice", "YOUNG TEA & COFFEE", "YOU + - Tôn Thất Hiệp", "Yoshifood", "YoLo coffee & tea - Điện Biên Phủ", "Yogurt Nếp Cẩm Linh - Nguyễn Thị Minh Khai", "YK Coffee - Nguyễn Thị Minh Khai", "YK Coffee", "Yi Jia Dessert - Vĩnh Viễn", "Yi Fang Tea Trần Hưng Đạo", "Yi Fang Tea Tôn Đức Thắng", "Yi Fang Tea Thanh Niên", "Yi Fang Tea Thái Phiên", "Yi Fang Tea Sun Grand", "Yi Fang Tea Sư Vạn Hạnh", "Yi Fang Tea Phan Xích Long", "Yi Fang Tea Phạm Ngọc Thạch", "Yi Fang Tea Nguyễn Hữu Huân", "Yi Fang Tea Huỳnh Thúc Kháng", "Yi Fang Tea Gardenia", "Yi Fang Tea Discovery Complex", "Yi Fang Tea Bà Triệu", "Yi Fang Tea Aeon Mall", "Yesterday Coffee Shop", "Yes Coffee Land", "YES Coffee & Tea - Tân Vĩnh"],
+                            "D1": ["Quận Tân Bình", "Quận 1", "Quận Tây Hồ", "Quận Hoàn Kiếm", "Quận Ba Đình", "Quận Cầu Giấy", "Quận Đống Đa", "Quận Hai Bà Trưng", "Quận Hai Bà Trưng", "Quận Phú Nhuận", "Quận 3", "Quận 2", "Quận Thủ Đức", "Quận 10", "Quận Bình Thạnh", "Quận Long Biên", "Quận 7", "Quận 11", "Quận Gò Vấp", "Quận Hà Đông", "Quận Tân Phú", "Quận Thanh Xuân", "Quận Bình Tân", "Quận 5", "Quận Nam Từ Liêm", "Quận 4", "Quận Hoàng Mai", "Quận 9", "Quận 8", "Quận Tân BÌnh", "Quận 6", "Quận 12", "Huyện Bình Chánh", "Huyện Củ Chi", "Quận Bắc Từ Liêm", "Huyện Thạch Thất"],
+                            "D2": ["34 Tân Hải, phường 13, Quận Tân Bình", "68/10A Trần Quang Khải, Phường Tân Định, Quận 1", "169 Vệ Hồ, Xuân La, Tây Hồ", "Số 123 Trích Sài, Phường Bưởi, Quận Tây Hồ", "42 Hàng Đậu, Phường Đồng Xuân, Quận Hoàn Kiếm", "90 Kim Mã, phường Kim Mã, Quận Ba Đình", "17 Trung Yên 11A Trung Hòa Cầu Giấy, Hà Nội", "22 Cửa Bắc, Phường Trúc Bạch, Quận Ba Đình", "số 21 ngõ 41 Đông Tác, phường Kim Liên, quận Đống Đa, Hà Nội", "521B Trần Khát Chân, Phường Thanh Nhàn, Quận Hai Bà Trưng", "50 Nguyễn Đình Chiểu, phường Lê Đại Hành, Quận Hai Bà Trưng", "4 Nguyễn Văn Đậu, Phường 5, Quận Phú Nhuận", "193/37 Nam Kỳ Khởi Nghĩa, Phường 7, Quận 3", "189 Bà Triệu, Phường Lê Đại Hành, Quận Hai Bà Trưng", "250 Lý Chính Thắng, Phường 9, Quận 3", "31 Dương Khuê,Mai Dịch,Cầu Giấy", "153 Trần Đại Nghĩa, Phường Đồng Tâm, Quận Hai Bà Trưng", "52 Song Hành Xa Lộ Hà Nội, Phường An Phú, Quận 2", "216 Võ Văn Ngân, P. Bình Thọ, Q. Thủ Đức", "11 Sư Vạn Hạnh, Phường 12, Quận 10", "458 Minh Khai, Phường Vĩnh Tuy, Quận Hai Bà Trưng", "23 Thảo Điền, Phường Thảo Điền, Quận 2", "561A Điện Biên Phủ, Phường 25, Quận Bình Thạnh", "7-9 Nguyễn Văn Linh, Phường Gia Thụy, Quận Long Biên", "65 Lê Lợi, Phường Bến Nghé, Quận 1", "94 Quán Thánh, Phường Quán Thánh, Quận Ba Đình", "417 Hai Bà Trưng, Phường 8, Quận 3", "16-18 Hai Bà Trưng, Phường Bến Nghé, Quận 1", "159 Xa lộ Hà Nội, Phường Thảo Điền, Quận 2", "469 Nguyễn Hữu Thọ, Phường Tân Hưng, Quận 7", "968 Ba Tháng Hai, Phường 15, Quận 11", "54 Liễu Giai, Phường Cống Vị, Quận Ba Đình", "206C Lê Văn Sỹ , Phường 10, Quận Phú Nhuận", "208 Nguyễn Hữu Cảnh, Phường 22, Quận Bình Thạnh", "188 Kim Mã, Phường Kim Mã, Quận Ba Đình", "239 Xuân Thủy, Phường Dịch Vọng, Quận Cầu Giấy", "52 Hàng Trống, Phường Hàng Trống, Quận Hoàn Kiếm", "125 Hàng Bông, Phường Hàng Bông, Quận Hoàn Kiếm", "88 Đường Song Hành, Phường An Phú, Quận 2", "168 Phan Văn Trị, Phường 5, Quận Gò Vấp", "302 Cầu Giấy, Phường Dịch Vọng, Quận Cầu Giấy", "332 Cách Mạng Tháng 8, phường 10, Quận 3", "153 Chùa Bộc, Phường Trung Liệt, Quận Đống Đa", "110 Trần Phú, Phường Mộ Lao, Quận Hà Đông", "222 Trần Duy Hưng, Phường Trung Hòa, Quận Cầu Giấy", "1/1 Trường Chinh, Phường Tây Thạnh, Quận Tân Phú", "685 Âu Cơ, Phường Tân Thạnh, Quận Tân Phú", "Số 3 Lê Trọng Tấn, phường Khương Mai, quận Thanh Xuân", "278 Bà Triệu, Phường Lê Đại Hành, Quận Hai Bà Trưng", "30 Đường Bờ Bao Tân Thắng, Phường Sơn Kỳ, Quận Tân Phú", "18 Ngõ 66 Dịch Vọng Hậu, Phường Dịch Vọng Hậu, Quận Cầu Giấy, Hà Nội", "Số 30 ngõ 33 Phan Văn Trường, phường Dịch Vọng Hậu, quận Cầu Giấy, Hà Nội", "213/18 Nguyễn Thiện Thuật, Phường 1, Quận 3", "10e Lưu Chí Hiếu, phường Tây Thạnh, quận Tân Phú", "60/37 Lý Chính Thắng, Phường 8, Quận 3", "66 Ung Văn Khiêm, Phường 25, Quận Bình Thạnh", "257 Phan Xích Long, Phường 2, Quận Phú Nhuận", "185 Hoa Lan, Phường 2, Quận Phú Nhuận", "181C1 Cách Mạng Tháng 8, Phường 5, Quận 3", "57 nguyễn thị thập,Tân hưng ,Quận 7", "số 11 Sư Vạn Hạnh, Phường 12, Quận 10", "Số 2C Thái Phiên, phường Lê Đại Hành, quận Hai Bà Trưng", "Số 60 Lý Thường Kiệt, phường Trần Hưng Đạo, quận Hoàn Kiếm", "Số 240 Phạm Văn Đồng, phường Hiệp Bình Chánh, quận Thủ Đức", "Gian hàng số 4, TTTM BigC Thăng Long, 222 Trần Duy Hưng, phường Trung Hòa, quận Cầu Giấy", "Số 32 Chùa Láng, phường Láng Thượng, quận Đống Đa", "187 Bàu Cát, Phường 14, Quận Tân Bình", "27 Huỳnh Văn Bánh, Phường 17, Quận Phú Nhuận", "101 Ô Chợ Dừa, Ô Chợ Dừa, Chợ Dừa, Đống Đa", "152/8 Vĩnh Viễn, P9, Q10", "42/6B Tôn Thất Thiệp, Phường Bến Nghé, Quận 1", "631/6 Tỉnh lộ 10, Phường Bình Trị Đông B, Quận Bình Tân", "304A Điện Biên Phủ, Phường 17, Quận Bình Thạnh", "320 Nguyễn Thị Minh Khai, Phường 5, Quận 3, TP.Hồ Chí Minh", "1A Nguyễn Thị Minh Khai, Phường Bến Nghé, Quận 1", "01 Nguyen Thi Minh Khai, P. Da Kao, Q. 1", "363 Vĩnh Viễn, Phường 5, Quận 10", "400A Trần Hưng Đạo, Quận 5, TP. Hồ Chí Minh", "35 Tôn Đức Thắng, phường Quốc Tử Giám, quận Đống Đa", "11 Thanh Niên, Quán Thánh, Ba Đình", "21 Thái Phiên, Lê Đại Hành, Hai Bà Trưng", "L1-B2 Sun Grand City 69B Thuỵ Khuê, phường Thuỵ Khuê, quận Tây Hồ", "738 Sư Vạn Hạnh, P. 12, Quận 10, TP. HCM", "174 Phan Xích Long, Phường 2, Quận Phú Nhuận", "10-11 B4 Phạm Ngọc Thạch, Kim Liên, Đống Đa", "B2-20 Khu Chức năng Đô thị Thành phố Xanh, Hàm Nghi, Cầu Diễn, Nam Từ Liêm", "3 Huỳnh Thúc Kháng, Phường Bến Nghé, Quận 1", "20B2 KĐT Vinhomes Gardenia, Hàm Nghi, Mỹ Đình, Nam Từ Liêm", "Tầng 5 Discovery Complex 302 Cầu Giấy, Dịch Vọng, Cầu Giấy", "61 Bà Triệu, Hàng Bài, Hoàn Kiếm", "Aeon Mall Long Biên, 27 Cổ Linh, Long Biên", "63 Hoa Sứ, Phường 7, Quận Phú Nhuận", "69/3 Nguyễn Gia Trí, Phường 25, Quận Bình Thạnh", "37 Tân Vĩnh, Phường 4, Quận 4", "215B Điện Biên Phủ, Phường 6, Quận 3, TP.Hồ Chí Minh", "293 Thống Nhất, Phường 11, Quận Gò Vấp", "111 Nguyễn Đức Cảnh, phường Tân Phong, quận 7", "252 Nguyễn Văn Hưởng, Thảo Điền quận 2", "75 Đồng Đen, Phường 12, Quận Tân Bình", "40 Bùi Viện, phường Phạm Ngũ Lão, quận 1"]
+                        }
+                    }]
+                }
+            }
+        }
+    }]
+}
